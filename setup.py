@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'YOURAPP',
-    version = '1.0.0',
+    name = 'voltedge',
+    version = '0.0.1',
     packages = find_packages(),
     install_requires = [
         "octopus==1.0.0",
@@ -10,9 +10,9 @@ setup(
         "Flask"
     ],
     url = 'http://cottagelabs.com/',
-    author = 'Cottage Labs',
-    author_email = 'us@cottagelabs.com',
-    description = 'DESCRIBE YOUR APP',
+    author = 'Steven Eardley',
+    author_email = 'steve@cottagelabs.com',
+    description = 'An experiment with edges based on UK EV data',
     classifiers = [
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
